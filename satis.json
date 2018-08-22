@@ -1,6 +1,6 @@
 {
     "name": "composer/satis",
-    "homepage": "http://192.168.2.42/satis",
+    "homepage": "https://github.com/samllsen/satis",
     "repositories": [
         {"type": "vcs", "url": "https://github.com/samllsen/blog.git"}
     ],
