@@ -1,0 +1,8 @@
+{
+    "name": "composer/satis",
+    "homepage": "http://192.168.2.42/satis",
+    "repositories": [
+        {"type": "vcs", "url": "https://github.com/samllsen/blog.git"}
+    ],
+    "require-all": true
+}

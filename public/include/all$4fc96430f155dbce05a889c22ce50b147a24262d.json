@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "laravel/lumen": {
+            "dev-master": {
+                "name": "laravel/lumen",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/samllsen/blog.git",
+                    "reference": "cd6510d34b887b906d9843ad1c3bbb55caacec2d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/samllsen/blog/zipball/cd6510d34b887b906d9843ad1c3bbb55caacec2d",
+                    "reference": "cd6510d34b887b906d9843ad1c3bbb55caacec2d",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/lumen-framework": "5.6.*",
+                    "php": ">=7.1.3",
+                    "vlucas/phpdotenv": "~2.2"
+                },
+                "require-dev": {
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "~1.0",
+                    "phpunit/phpunit": "~7.0"
+                },
+                "time": "2018-08-22T09:05:47+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/"
+                    ]
+                },
+                "scripts": {
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "The Laravel Lumen Framework.",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "lumen"
+                ],
+                "support": {
+                    "source": "https://github.com/samllsen/blog/tree/master",
+                    "issues": "https://github.com/samllsen/blog/issues"
+                }
+            }
+        }
+    }
+}
